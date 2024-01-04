@@ -1,0 +1,119 @@
+.a{
+    height:950px;
+    background-color: violet;
+    position: relative;
+    top:0px;
+}
+.a1{
+
+    width:280px;
+    height:350px;
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+    left:200px;
+    top:50px;
+}
+.a2{
+    
+    width:280px;
+    height:350px;
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+    left:520px;
+    bottom:300px;
+    
+}
+.a3{
+    
+    width:280px;
+    height:350px;
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+    left:840px;
+    bottom:650px;
+}
+.a4{
+    
+    width:280px;
+    height:350px;
+    background-color:white;
+    border-radius: 25px;
+    position: relative;
+    left:200px;
+    bottom:600px;
+}
+.a5{
+    
+    width:280px;
+    height:350px;
+    background-color:white;
+    border-radius: 25px;
+    position: relative;
+    left:520px;
+    bottom:950px;
+}
+.a6{
+    
+    width:280px;
+    height:350px;
+    background-color:white;
+    border-radius: 25px;
+    position: relative;
+    left:840px;
+   bottom:1300px;
+}
+h{
+position: relative;
+left:550px;
+top:20px;
+    text-align: center;
+    color:white;
+    font-family: monospace;
+    font-size: 20px;
+}
+h1{
+    position: relative;
+    top:20px;
+    right:40px;
+        text-align: center;
+        color:white;
+        font-size: 40px;
+        font-family: monospace;
+    }
+.aa1{
+    height:200px;
+    width:200px;
+    position: relative;
+    left:30px;
+}
+#aa1{
+    height:200px;
+    width:200px;
+
+}
+h5{
+color:violet;
+font-size: 25px;
+position: relative;
+left:30px;
+bottom:50px;
+}
+.aa2{
+    position: relative;
+    bottom:90px;
+    left:10px;
+    color:rgb(71, 69, 69)
+}
+button{
+    height:30px;
+    width:100px;
+    background-color: violet;
+    border-radius: 25px;
+    color:white;
+    position: relative;
+    bottom:100px;
+    left:70px;
+}

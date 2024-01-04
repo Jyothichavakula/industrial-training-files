@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positiontask</title>
+    <style>
+        .a{
+            height:400px;
+            width:300px;
+            float: left;
+            border:2px solid black;
+        }
+        .a1{
+            
+            height:100px;
+            width:100px;
+            border:2px solid black;
+            background-color: rgb(96, 198, 238);
+            position: static;
+        }
+        .a2{
+            height:100px;
+            width:100px;
+            border:2px solid black;
+            background-color: rgb(21, 228, 21);
+            position: static;
+        }
+        .b{
+            height:400px;
+            width:300px;
+            float:left;
+            border:2px solid black;
+        }
+        .b1{
+            height:100px;
+            width:100px;
+            border:2px solid black;
+            background-color: rgb(96, 198, 238);
+            position: static;
+        }
+        .b2{
+            height:100px;
+            width:100px;
+            border:2px solid black;
+            background-color: rgb(21, 228, 21);
+            position: relative;
+            top: 30px;
+            left:30px;
+        }
+        .b3{
+            height:100px;
+            width:100px;
+            border:2px solid black;
+            background-color: rgb(96, 198, 238);
+            position: absolute;
+        }
+        .c{
+            height:400px;
+            width:300px;
+            float:left;
+            border:2px solid black;
+        } 
+        .c1{
+            height:100px;
+            width:100px;
+            border:2px solid black;
+            background-color:  rgb(96, 198, 238);
+            position: static;
+        }
+        .c2{
+            height:100px;
+            width:100px;
+            border:2px solid black;
+            background-color:  rgb(96, 198, 238);
+            position: static;
+            
+        }
+        .c3{
+            height:100px;
+            width:100px;
+            border:2px solid black;
+            background-color: rgb(21, 228, 21);
+            position:absolute;
+            top: 170px;
+            left:750px;
+        }
+        .d{
+            height:400px;
+            width:300px;
+            float:left;
+            border:2px solid black;
+        }
+        .d1{
+            height:100px;
+            width:100px;
+            border:2px solid black;
+            background-color: rgb(96, 198, 238);
+            position:relative;
+        }
+        .d2{
+            height:100px;
+            width:100px;
+            border:2px solid black;
+            background-color:  rgb(96, 198, 238);
+            position:relative;
+        }
+        .d3{
+            height:100px;
+            width:100px;
+            border:2px solid black;
+            background-color: rgb(21, 228, 21);
+            position:fixed;
+            top:0px;
+            right:0px;
+        }
+        .e{
+            height:400px;
+            width:300px;
+            float:left;
+            border:2px solid black;
+        }
+        .e2{
+            height:100px;
+            width:100px;
+            border:2px solid black;
+            background-color: rgb(96, 198, 238);
+        }
+        .e1{
+            height:100px;
+            width:100px;
+            border:2px solid black;
+            background-color: rgb(21, 228, 21);
+            position:sticky;
+            top:1px;
+        }
+        .e3{
+            height:100px;
+            width:100px;
+            border:2px solid black;
+            background-color: rgb(96, 198, 238);
+        }
+        .f{
+            height:400px;
+            width:300px;
+            float:left;
+            border:2px solid black;
+        }
+
+        .f3{
+            height:100px;
+            width:100px;
+            border:2px solid black;
+            background-color: rgb(21, 228, 21);
+            position:sticky;
+            bottom:1px;
+        
+        }
+        .f2{
+            height:100px;
+            width:100px;
+            background-color: rgb(96, 198, 238);
+            border:2px solid black;
+        }
+        .f1{
+            height:100px;
+            width:100px;
+            border:2px solid black;
+            background-color: rgb(96, 198, 238);
+        }
+        .g{
+            height:400px;
+            width:300px;
+            float:left;
+            border:2px solid black;
+        }
+        .g2{
+            height:100px;
+            width:100px;
+            border:2px solid black;
+            background-color: rgb(96, 198, 238);
+            float:left;
+           position: relative;
+           bottom: 100px;
+           left: 45px;
+           opacity: 0.8;
+
+        }
+        .g1{
+            height:100px;
+            width:100px;
+            border:2px solid black;
+            background-color: rgb(21, 228, 21);
+            position:sticky;
+            left:1px;
+        
+        }
+        .g3{
+            height:100px;
+            width:100px;
+            border:2px solid black;
+            background-color: rgb(96, 198, 238);
+            float:left;
+            position: relative;
+           bottom: 100px;
+           left: 45px;
+           opacity: 0.8;
+        }
+        .h{
+            height:400px;
+            width:300px;
+            float:left;
+            border:2px solid black;
+        }
+
+        .h3{
+            height:100px;
+            width:100px;
+            border:2px solid black;
+            background-color: rgb(21, 228, 21);
+            position:sticky;
+            right:1px;
+        
+        }
+        .h1{
+    height: 96px;
+    width: 90px;
+    background: deepskyblue;
+    border: 2px solid blue;
+    position: relative;
+    left: 2px;
+    opacity: 0.8;
+}
+.h2{
+    height: 96px;
+    width: 100px;
+    background: deepskyblue;
+    border: 2px solid blue;
+    position: relative;
+    bottom: 200px;
+    left: 135px;
+    
+    
+    float: right;
+    opacity: 0.8;
+}
+        .ab{
+            height:310px;
+            width:250px;
+            float:left;
+            border:1px solid grey;
+            margin-left: 25px;
+        }
+        .ab1{
+            height:280px;
+            width:250px;
+            float:left;
+            border:1px solid grey;
+            margin-left: 25px;
+            overflow-y:scroll;
+        }
+        .ab2{
+            height:280px;
+            width:220px;
+            float:left;
+            border:1px solid grey;
+            margin-left: 25px;
+            overflow-x:scroll;
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <h4>&nbsp;&nbsp;position:static</h4>
+       <div class="ab"> 
+        <div class="a1"></div>
+        <div class="a2"><center><h4>static</h4></center></div>
+        <div class="a1"></div>
+       </div>
+    </div>
+    <div class="b">
+        <h4>&nbsp;&nbsp;position:relative</h4>
+      <div class="ab">  
+        <div class="b1"></div>
+        <div class="b2"><center><h4>relative</h4></center></div>
+        <div class="b3"></div>
+      </div>
+    </div>
+    <div class="c">
+        <h4>&nbsp;&nbsp;position:absolute</h4>
+        <div class="ab"> 
+            <div class="c1"></div>
+            <div class="c2"></div>
+            <div class="c3"><center><h4>absolute</h4></center></div>
+        </div>
+    </div>
+    <div class="d">
+        <h4>&nbsp;&nbsp;position:fixed</h4>
+        <div class="ab">
+            <div class="d1"></div>
+            <div class="d2"></div>
+            <div class="d3"><center><h4>fixed</h4></center></div>
+            
+        </div>
+    </div>
+    <div class="e">
+        <h4>&nbsp;&nbsp;position:sticky(top)</h4>
+        <div class="ab1">
+
+       <div class="e1"></div>
+            <div class="e2"></div>
+            <div class="e3"></div>
+            </div>
+    </div>
+    <div class="f">
+        <h4>&nbsp;&nbsp;position:sticky(bottom)</h4>
+        <div class="ab1"> 
+            <div class="f1"></div>
+        <div class="f2"><center><h4>static</h4></center></div>
+        <div class="f3"></div>
+            </div>
+    </div>
+    <div class="g">
+        <h4>&nbsp;&nbsp;position:sticky(left)</h4>
+        <div class="ab2"> 
+            <div class="g1"></div>
+        <div class="g2"><center><h4>static</h4></center></div>
+        <div class="g3"></div>
+            </div>
+    </div>
+    <div class="h">
+        <h4>&nbsp;&nbsp;position:sticky(right)</h4>
+        <div class="ab2"> 
+            <div class="h1"></div>
+            <div class="h2"><center><h4>static</h4></center></div>
+            <div class="h3"></div>
+            </div>
+    </div>
+</body>
+</html>

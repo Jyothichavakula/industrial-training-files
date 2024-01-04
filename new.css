@@ -1,0 +1,52 @@
+.task{
+    height:700px;
+    width:1200px;
+    background-color: whitesmoke;
+}
+.task1{
+    height:400px;
+    width:1200px;
+    background-color:skyblue ;
+    position: relative;
+    top:300px;
+}
+.task2{
+    height:300px;
+    width:220px;
+    background-color: white;
+    position: relative;
+    bottom:160px;
+    right:360px;
+}
+.task3{
+    height:300px;
+    width:220px;
+    background-color: white;
+    position: relative;
+    bottom:550px;
+  right:120px;
+}
+.task4{
+    height:300px;
+    width:220px;
+    background-color: white;
+    position: relative;
+    bottom:770px;
+    left:120px;
+    
+}
+.task5{
+    height:300px;
+    width:220px;
+    background-color: white;
+    position: relative;
+    bottom:1150px;
+    left:370px;
+}
+h4{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+}
+p{
+    color: gray;
+}
